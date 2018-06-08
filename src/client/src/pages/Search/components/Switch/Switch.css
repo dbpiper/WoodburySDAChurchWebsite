@@ -1,0 +1,39 @@
+
+.twoToOneAnimation {
+  animation: slideRightFromMid 166.667ms linear 1;
+}
+
+@keyframes slideRightFromMid {
+  from {
+    left: 27%;
+  }
+  to {
+    left: 54%;
+  }
+}
+
+.oneToZeroAnimation {
+  animation: slideLeftFromRight 333.333ms linear 1;
+}
+
+@keyframes slideLeftFromRight {
+  from {
+    left: 54%;
+  }
+  to {
+    left: 7%;
+  }
+}
+
+.zeroToTwoAnimation {
+  animation: slideMidFromLeft 166.667ms linear 1;
+}
+
+@keyframes slideMidFromLeft {
+  from {
+    left: 7%;
+  }
+  to {
+    left: 27%;
+  }
+}

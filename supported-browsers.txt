@@ -1,0 +1,56 @@
+The oldest browsers supported are the following:
+
+  * Chrome 49 (last version of Chrome available for Windows XP, Vista, OS X:
+      10.6, 10.7, 10.8)
+    as a result it still has about 0.71% of global market share according to
+      https://caniuse.com
+  * Internet Explorer 11 (only version of IE still supported by Microsoft)
+    see: https://www.microsoft.com/en-us/windowsforbusiness/end-of-ie-support
+    as a result it has about 2.71% global market share according to
+      https://caniuse.com
+  * iOS Safari 5.1 (7534.48.3) see:
+      http://www.somegeekintn.com/blog/stuff/iosvers/
+      last version of Safari available for: the original iPad, and the iPod 3G.
+
+      It only has 0.02% global market share and 0.06% US market share, but
+      my mother has an original iPad, and since the site should work on all
+      of her devices, this is a requirement.
+
+
+The table of features that are supported on these browsers:
+https://caniuse.com/#compare=ie+11,chrome+49,ios_saf+5.0-5.1
+
+The main takeaways:
+  * Partial Flexbox support (potentially buggy, and only old versions)
+    https://caniuse.com/#feat=flexbox
+  * No CSS Grid
+  * No Web Animations API (must use shims for React)
+  * No Web App Manifest (so no PWA support, though this is obvious since
+    Safari barely supports this even on the latest version)
+  * No FLAC audio
+  * No KeyboardEvent.key support
+  * No Service Workers (again no PWA support)
+  * No String.prototype.includes support
+  * No Arrow Functions
+  * No ES6 Classes
+  * No Fetch support
+  * No Web Audio API support
+  * No ES6 Template Literals support
+  * No ES6 Number extension
+  * No Rest parameters
+  * No promises
+  * No CSS Variables
+  * No Media Query interaction media features support
+  * No Pointer events support
+    - According to this site: https://developer.apple.com/documentation/webkitjs/touchevent
+       iOS Safari 5.1 supports the TouchEvent interface, so this should be used
+       for this browser.
+    - Chrome 49 supports the old MouseEvent interface, so this should be used
+      for it.
+    - IE 11 and newer browsers support the PointerEvent interface, so
+      this should be used for those.
+  * No Viewport unit support
+  * No Drag and Drop
+  * No PNG favicons (so must use .ico)
+  * No WebGL 3D Canvas Graphics
+  *

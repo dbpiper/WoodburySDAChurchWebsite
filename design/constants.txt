@@ -1,0 +1,1 @@
+White Text color: '#F2EFFC' 

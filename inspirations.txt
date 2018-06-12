@@ -1,1 +1,24 @@
-www.discoveringfaith.com/home
+http://www.discoveringfaith.com/home
+  * I like the navbar color and style
+  * I don't like the navbar hover menu
+  * I don't like the carousel image banner at the top
+  * I like the images
+  * I like the welcoming text
+  * I like the contact info and services info listed at bottom
+  * I don't like the low-resolution images
+
+http://hclutheran.net/index.html
+  * I like the static image rather than having a carousel
+  * I don't like the Learn More button
+    (it is an interesting idea, however all it does is scroll down and
+    seems to be cluttering up the page and can potentially confuse users)
+  * I like the parallax background image effects
+    However, it seems to make me sick. So don't do it!
+  * I like the warm inviting text
+  * I like the address and click for directions button
+  * I like the navbar hover menu
+  * I like the fact that the email address is a clickable (mailto) link.
+
+http://oldwestchurch.org/
+  * I like the calendar link in the navbar
+  * I don't like the fact that no service times are listed on home page.
